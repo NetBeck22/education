@@ -19,7 +19,6 @@ div[data-testid="metric-container"] {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("Language Support Needs")
 
 st.markdown("""
 ### Policy context
@@ -48,6 +47,7 @@ st.caption(
     "Non-Dutch home language, education pressure and local support priority in Flemish municipalities. "
     "Sources: provincies.incijfers.be, Agentschap Integratie & Inburgering, StatBel"
 )
+st.title("Language Support Needs")
 
 DATA_EXTERNAL = Path("data/external")
 
